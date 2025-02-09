@@ -1,8 +1,10 @@
 import './App.css'
 
 function App() {
+  const baseUrl = '/tokyo_station'
+  
   const handleMenuClick = () => {
-    window.open('/menu.pdf', '_blank')
+    window.open(`${baseUrl}/menu.pdf`, '_blank')
   }
 
   return (
@@ -13,7 +15,7 @@ function App() {
       </header>
       <div className="video-container">
         <video autoPlay muted loop playsInline className="background-video">
-          <source src="/tokyo.mp4" type="video/mp4" />
+          <source src={`${baseUrl}/tokyo.mp4`} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
