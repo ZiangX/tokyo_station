@@ -15,7 +15,7 @@
   top: 0;
   left: 0;
   right: 0;
-  padding: 2rem;
+  padding: 1rem;
   z-index: 10;
   background: black;
   display: flex;
@@ -30,7 +30,7 @@
 }
 
 .menu-btn {
-  padding: 0.75rem 2rem;
+  padding: 0.4rem 0.7rem;
   font-size: 1.2rem;
   background: transparent;
   border: 2px solid white;
@@ -57,4 +57,13 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* src/fonts.css or src/index.css */
+@font-face {
+  font-family: 'tokyoFont'; /* Choose a name for your font */
+  src: url('./fonts/ZYENA-Power-2.ttf') format('truetype'); /* Path to your font file */
+  font-weight: normal; /* Define font weight (normal, bold, etc.) */
+  font-style: normal; /* Define font style (normal, italic, etc.) */
+  font-display: swap; /* Optional: Improves perceived performance */
 }
