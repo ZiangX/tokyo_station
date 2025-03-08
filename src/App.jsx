@@ -1,7 +1,8 @@
 import './App.css';
 
 function App() {
-	const baseUrl = '/tokyo_station';
+	// const baseUrl = '/tokyo_station';
+	const baseUrl = '';
 
 	const handleMenuClick = () => {
 		window.open(`${baseUrl}/menu.pdf`, '_blank');
